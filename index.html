@@ -4,66 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">MyPortfolio</div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <h1>Hi, I'm [Your Name]</h1>
-        <p>A Passionate Software Developer</p>
-    </section>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>AI/ML Enthusiast & Software Developer</p>
+        </div>
+    </header>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>I'm a software developer with a focus on AI, ML, and efficient software practices.</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate AI and ML enthusiast focused on developing efficient software solutions. With a background in website consulting and a deep understanding of modern technologies, I aim to push the boundaries of what’s possible in software engineering.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>React.JS, HTML, CSS, JavaScript</li>
+                <li>Software Development</li>
+                <li>Web Consulting</li>
+            </ul>
+        </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <h2>My Projects</h2>
-        <div class="project-card">
-            <h3>Project One</h3>
-            <p>A great project description goes here.</p>
-            <a href="#">View Project</a>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Website Consulting for Local Businesses</h3>
+                <p>Developed responsive websites using React.JS, CSS, and JavaScript, enhancing online presence for local businesses.</p>
+            </div>
+            <!-- Add more projects as needed -->
         </div>
-        <div class="project-card">
-            <h3>Project Two</h3>
-            <p>Another awesome project description here.</p>
-            <a href="#">View Project</a>
-        </div>
-        <!-- Add more projects as needed -->
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Intern at XPerience Coding LLC</h3>
+                <p>Handled website consulting, building websites using modern web technologies for various clients.</p>
+                <p><strong>Duration:</strong> Summer 2024</p>
+            </div>
+            <!-- Add more experience as needed -->
+        </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer class="footer">
-        <p>&copy; 2024 MyPortfolio. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
