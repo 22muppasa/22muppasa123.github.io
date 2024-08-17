@@ -73,34 +73,10 @@ a {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    animation: fadeInDown 1s ease-out;
 }
 
 .hero p {
     font-size: 1.5rem;
-    animation: fadeInUp 1s ease-out;
-}
-
-@keyframes fadeInDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeInUp {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 /* About Section */
@@ -157,6 +133,13 @@ a {
 
 .experience-item {
     margin-bottom: 2rem;
+    border-left: 4px solid #2575fc;
+    padding-left: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.experience-item:hover {
+    background-color: #f0f0f0;
 }
 
 .experience-item h3 {
@@ -182,6 +165,13 @@ a {
 
 .education-item {
     margin-bottom: 2rem;
+    border-left: 4px solid #2575fc;
+    padding-left: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.education-item:hover {
+    background-color: #f0f0f0;
 }
 
 .education-item h3 {
@@ -217,31 +207,4 @@ a {
 
 .projects .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-}
-
-.projects h3 {
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    color: #333;
-}
-
-.projects p {
-    color: #666;
-    margin-bottom: 1.5rem;
-}
-
-.projects a {
-    color: #2575fc;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
-
-.projects a:hover {
-    color: #e91e63;
-}
-
-/* Footer */
-.footer {
-    background-color: #333;
-    color:
+   
