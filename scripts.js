@@ -1,5 +1,3 @@
-// js/scripts.js
-
 // Smooth Scroll for Navbar Links
 document.querySelectorAll('.nav-links a').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
